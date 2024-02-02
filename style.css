@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    margin-top: 50px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+header .Logo{
+    font-size: 20px;
+    font-weight: 500; 
+    color: #fff; 
+}
+
+header nav ul li{
+    position: relative;
+    float: left;
+    align-items: center;
+
+}
+header nav ul li a {
+    padding: 15px;
+    color: #fff;
+    font: 16px;
+    display: block;
+}
+
+header nav ul li a:hover{
+    background: firebrick;
+    color: white;
+}
+
+.card {
+    width: 300px;
+    padding: 16px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    float: right;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .dates {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .spouse,
+  .children,
+  .parents {
+    margin-bottom: 4px;
+  } 
+
+.authors-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.author-card {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.author-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.author-card h2 {
+    margin: 10px 0;
+}
